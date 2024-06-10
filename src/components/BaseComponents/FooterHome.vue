@@ -31,7 +31,7 @@
             <a  class="footer-link" @click="onPostClick3">Register</a>
             <a  class="footer-link" @click="onPostClick4">F.A.Q</a>
             <a  class="footer-link" @click="onPostClick5">Contacts</a>
-            <a @click="showDialog" class="footer-link">Certifications</a>
+<!--            <a @click="showDialog" class="footer-link">Certifications</a>-->
           </div>
 
           <div class=" stay-connected">
