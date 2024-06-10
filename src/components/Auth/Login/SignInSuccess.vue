@@ -15,6 +15,7 @@
     <div class="submit">
 <!--      <button class="submit-btn"  @click="signIn">Proceed to DashBoard</button>-->
       <base-button
+          :loading="loading"
           style="
             width: 400px;
    background: linear-gradient(180deg, #3179FF 0%, #1450C8 100%);
