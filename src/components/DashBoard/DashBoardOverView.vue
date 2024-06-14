@@ -968,7 +968,7 @@
           <div class="row filter_group">
             <!--          <div class="blue">Download transactions</div>-->
             <div class="action-content">
-              <img src="@/assets/Filterslines.svg"  alt="Export"/>
+<!--              <img src="@/assets/Filterslines.svg"  alt="Export"/>-->
               <p>Filter</p>
             </div>
           </div>
@@ -1523,7 +1523,7 @@ i{
   padding: 8px 14px;
   gap: 8px;
   font-size: 12px;
-  width: 125px;
+  width: 130px;
   height: 30px;
   background: #0f171c;
   color: #ffffff;
@@ -1534,9 +1534,9 @@ i{
 }
 
 .fund-wallet:hover{
-  background: #ffcf01;
-  color: #ffffff;
-  border: 1px solid #ffcf01;
+  background: #ffffff;
+  color: #0f171c;
+  border: 0.5px solid #ffffff;
   /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);*/
 }
 
@@ -1782,15 +1782,16 @@ td {
   display: flex;
   align-items: center;
   align-content: center;
-  padding: 8px 14px;
+  padding: 8px 20px;
   gap: 8px;
-  width: 88px;
+  /*width: 88px;*/
   height: 36px;
   background: #0f171c;
   border: 0.5px solid #3C4A57FF;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 4px;
   margin-right: 13px;
+  text-align: center;
 }
 
 .action-content:hover{

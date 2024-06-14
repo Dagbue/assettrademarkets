@@ -12,7 +12,7 @@
         <div class="row filter_group">
           <!--          <div class="blue">Download transactions</div>-->
           <div class="action-content">
-            <img src="@/assets/Filterslines.svg"  alt="Export"/>
+<!--            <img src="@/assets/Filterslines.svg"  alt="Export"/>-->
             <p>Filter</p>
           </div>
         </div>
@@ -432,9 +432,9 @@ td {
   display: flex;
   align-items: center;
   align-content: center;
-  padding: 8px 14px;
+  padding: 8px 20px;
   gap: 8px;
-  width: 88px;
+  /*width: 88px;*/
   height: 36px;
   background: #0f171c;
   border: 0.5px solid #3C4A57FF;

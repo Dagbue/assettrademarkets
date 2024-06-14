@@ -117,7 +117,9 @@
                 style="
                   background-color: #5d78ff;
                   border: 1px solid #5d78ff;"
-                class="btn" :loading="loading">Update Details</base-button>
+                class="btn"
+                :loading="loading"
+            >Update Details</base-button>
           </div>
 
         </form>
@@ -173,6 +175,7 @@ export default {
       this.$router.push("/trade-request-admin");
     },
 
+
     convertDateFormat(dateStr) {
       const dateObj = new Date(dateStr);
       // Formatting the date manually
@@ -224,9 +227,14 @@ export default {
       await router.push("/trade-request-admin")
     }
   },
-  created() {
+  async created() {
+
+    await StoreUtils.dispatch(StoreUtils.actions.trade.readTradeById, {
+      tradeId: this.$route.query.tradeId,
+    })
+
     this.populateForm();
-    // this.getUserInfo();
+
     StoreUtils.rootGetters(StoreUtils.getters.trade.getReadTradeById)
 
     StoreUtils.rootGetters(StoreUtils.getters.auth.getAdminUserId)
@@ -234,23 +242,21 @@ export default {
     // Convert and store the formatted date
     this.convertedDate = this.convertDateFormat(this.tradeTime);
 
-    // StoreUtils.dispatch(StoreUtils.actions.trade.readTradeById, {
-    //   tradeId: this.getAdminUserId.tradeId
-    // })
   },
 
-  mounted() {
+  async mounted() {
+    await StoreUtils.dispatch(StoreUtils.actions.trade.readTradeById, {
+      tradeId: this.$route.query.tradeId,
+    })
     this.populateForm();
-    // this.getUserInfo();
+
     StoreUtils.rootGetters(StoreUtils.getters.trade.getReadUserTrade)
 
     StoreUtils.rootGetters(StoreUtils.getters.auth.getAdminUserId)
+
     // Convert and store the formatted date
     this.convertedDate = this.convertDateFormat(this.tradeTime);
 
-    // StoreUtils.dispatch(StoreUtils.actions.trade.readTradeById, {
-    //   tradeId: this.getAdminUserId.tradeId
-    // })
   }
 }
 </script>
