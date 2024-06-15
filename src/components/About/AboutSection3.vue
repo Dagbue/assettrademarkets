@@ -62,10 +62,10 @@ export default {
 <style scoped>
 
 .section-alpha{
-  /*background-image: url("@/assets/background.png");*/
+  background-image: url("@/assets/backgroungimage.png");
   /*background-color: #000;*/
   height: 100%;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -93,15 +93,15 @@ export default {
 
 .box{
   background-color: #ffffff;
-  box-shadow:  20px 20px 60px #d9d9d9,
-  -20px -20px 60px #ffffff;
+  /*box-shadow:  20px 20px 60px #d9d9d9,*/
+  /*-20px -20px 60px #ffffff;*/
   padding: 15px;
   border-radius: 12px;
   margin-bottom: 12px;
   margin-top: 4%;
   width: 330px;
   height: 330px;
-  border: 0.5px solid #d9d9d9;
+  border: 1px solid #d9d9d9;
 }
 
 

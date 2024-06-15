@@ -47,10 +47,10 @@ export default {
 <style scoped>
 
 .alpha{
-  /*background-image: url("@/assets/background.png");*/
+  background-image: url("@/assets/backgroungimage.png");
   /*background-color: #000;*/
   height: 100%;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

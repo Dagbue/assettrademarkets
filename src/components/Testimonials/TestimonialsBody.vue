@@ -97,15 +97,15 @@ export default {
 
 <style scoped>
 .alpha{
-  /*background-image: url("@/assets/background.png");*/
+  background-image: url("@/assets/backgroungimage.png");
   /*background-color: #000;*/
   height: 100%;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
 
 .section-1{
