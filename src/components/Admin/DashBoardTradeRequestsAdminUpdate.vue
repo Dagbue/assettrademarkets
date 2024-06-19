@@ -207,8 +207,8 @@ export default {
 
     async updateDetails() {
       await StoreUtils.dispatch(StoreUtils.actions.trade.updateTrade, {
-        tradeId: this.getAdminUserId.tradeId,
-        userId : this.getAdminUserId.userId,
+        tradeId: this.$route.query.tradeId,
+        userId : this.$route.query.userId,
         tradeTime : this.convertedDate,
         symbolTraded : this.symbolTraded,
         amountTrade : this.amountTrade,

@@ -85,17 +85,33 @@
             <div v-if="this.depositMethod === 'Bitcoin' ">
               <p class="text-4">Wallet Name : {{depositMethod}}</p>
               <p class="text-5">Wallet Address : {{this.bitcoinAddress}}</p>
+              <p @click="copyText" class="button"
+                      style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
             </div>
 
             <div v-if="this.depositMethod === 'Ethereum' ">
               <p class="text-4">Wallet Name : {{depositMethod}}</p>
               <p class="text-5">Wallet Address : {{this.ethereumAddress}}</p>
+              <p @click="copyText2" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
             </div>
 
             <div v-if="this.depositMethod === 'BankTransfer' ">
               <p class="text-4">Bank Name : {{this.bankName}}</p>
               <p class="text-5">Bank Address : {{this.accountNumber}}</p>
               <p class="text-5">Bank Routing Number : {{this.routingNumber}}</p>
+
+              <p class="text-3">Contact support to proceed with this Deposit Method
+                <span class="note-span">
+              <a style="color: rgba(219,101,123,0.6);" href="mailto:support@assettrademarkets.com" class="para-last">support@assettrademarkets.com</a>
+            </span>
+              </p>
             </div>
 
             <div v-if="this.depositMethod === 'Bitcoin' " class="qr-code">
@@ -106,7 +122,7 @@
               <vue-qrcode :value="ethereumAddress"></vue-qrcode>
             </div>
           </div>
-          <br/>
+
 
           <p v-if="this.depositMethod === 'Bitcoin' || this.depositMethod === 'Ethereum' ||  this.depositMethod === 'BankTransfer'"
               class="text-3">Note: After making your deposit,kindly send a screenshot/proof of deposit to
@@ -250,6 +266,24 @@ export default {
     };
   },
   methods: {
+    async copyText() {
+      await this.$copyText(this.bitcoinAddress)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText2() {
+      await this.$copyText(this.ethereumAddress)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
     async hideDialog() {
       this.dialogIsVisible = false;
       await router.push('/over-view')
@@ -602,6 +636,8 @@ hr {
   padding-bottom: 2%;
   word-wrap: break-word; /* or overflow-wrap: break-word; */
 }
+
+
 
 @media (max-width: 700px) {
   .header{
