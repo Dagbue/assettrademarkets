@@ -852,6 +852,7 @@ input::placeholder {
   }
   .wrapper .headline h2  {
     font-size: 28px;
+    width: 90%;
   }
 }
 @media (max-width: 500px) {

@@ -22,11 +22,11 @@
 
 
         <div class="button-group">
-          <div class="btn-1">
+          <div class="btn-1" @click="onPostClick">
             Get Started
 <!--            <img src="@/assets/arrow-right-line.svg" alt="" class="" />-->
           </div>
-          <div class="btn-1">
+          <div class="btn-1" @click="onPostClick2">
             LogIn
 <!--            <img src="@/assets/arrow-right-line.svg" alt="" class="" />-->
           </div>
@@ -75,7 +75,13 @@ export default {
       this.intervalId = setInterval(() => {
         this.currentIndex = (this.currentIndex + 1) % this.items.length;
       }, 2000); // Change item every 2000 milliseconds
-    }
+    },
+    onPostClick() {
+      this.$router.push("/register");
+    },
+    onPostClick2() {
+      this.$router.push("/login");
+    },
   }
 }
 </script>

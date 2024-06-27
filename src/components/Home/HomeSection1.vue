@@ -14,7 +14,7 @@
 
       <div class="section-2">
 
-        <img src="https://d33vw3iu5hs0zi.cloudfront.net/media/md_exness_stocks_sm_c905819104.jpg" alt="image" class="image-2" />
+        <img src="@/assets/section-1-img.jpg" alt="image" class="image-2" />
 
       </div>
 

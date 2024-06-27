@@ -143,6 +143,10 @@ export default {
     margin-bottom: 5%;
   }
 
+  .btn{
+    padding: 0.5em 30px 0.4em 30px;
+  }
+
 }
 
 @media (max-width: 500px){
