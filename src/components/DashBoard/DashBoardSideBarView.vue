@@ -92,7 +92,7 @@
 <!--      </div>-->
 
       <div class="logo">
-        <img src="@/assets/inverse.svg" alt="logo" class="afo-logo" />
+        <img src="@/assets/inverse.png" alt="logo" class="afo-logo-2" />
       </div>
 
       <ul>
@@ -227,10 +227,7 @@ export default {
   width: 85%;
 }
 .afo-logo-2{
-  width: 80%;
-  background-color: #FFFFFF;
-  padding: 10px 20px 10px 8px;
-  border-radius: 4px;
+  width: 75%;
   margin-left: 10%;
 }
 body{
