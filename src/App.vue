@@ -1171,7 +1171,7 @@ export default {
   },
 
   mounted() {
-    this.showToast()
+
   }
 }
 </script>
