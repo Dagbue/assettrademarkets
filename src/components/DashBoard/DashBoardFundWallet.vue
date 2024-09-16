@@ -73,11 +73,19 @@
               <option value="Bitcoin">Bitcoin</option>
               <option value="Ethereum">Ethereum</option>
               <option value="BankTransfer">Bank Transfer</option>
+              <option value="ERC20">USDT ( ERC20 NETWORK )</option>
+              <option value="TRC20">USDT ( TRC20 NETWORK )</option>
             </select>
           </div>
 
 
-          <p v-if="this.depositMethod === 'Bitcoin' || this.depositMethod === 'Ethereum' ||  this.depositMethod === 'BankTransfer'"
+          <p
+              v-if="this.depositMethod === 'Bitcoin' ||
+          this.depositMethod === 'Ethereum' ||
+          this.depositMethod === 'BankTransfer'||
+          this.depositMethod === 'BankTransfer'||
+          this.depositMethod === 'ERC20' ||
+          this.depositMethod === 'TRC20'"
              class="text-3">Transfer desired amount to the details displayed below and have your balance funded</p>
 
 
@@ -96,6 +104,26 @@
               <p class="text-4">Wallet Name : {{depositMethod}}</p>
               <p class="text-5">Wallet Address : {{this.ethereumAddress}}</p>
               <p @click="copyText2" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
+            </div>
+
+            <div v-if="this.depositMethod === 'ERC20' ">
+              <p class="text-4">Wallet Name : USDT ( ERC20 NETWORK )</p>
+              <p class="text-5">Wallet Address : 0xb0Ef0A604f5fD98fad908d8d60Ec6829CeCFdcf2</p>
+              <p @click="copyText3" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
+            </div>
+
+            <div v-if="this.depositMethod === 'TRC20' ">
+              <p class="text-4">Wallet Name : USDT ( TRC20 NETWORK )</p>
+              <p class="text-5">Wallet Address : TNE4te4MpXZrpNJyuLFySWhRxyioYikatr</p>
+              <p @click="copyText4" class="button"
                  style="background-color: #5d78ff;
                         width: 100px;height: 30px;font-size: 11px;
                       border: 1px solid #5d78ff;float: right;">
@@ -121,10 +149,24 @@
             <div v-if="this.depositMethod === 'Ethereum'" class="qr-code">
               <vue-qrcode :value="ethereumAddress"></vue-qrcode>
             </div>
+
+            <div v-if="this.depositMethod === 'TRC20' " class="qr-code">
+              <vue-qrcode :value="TRC20"></vue-qrcode>
+            </div>
+
+            <div v-if="this.depositMethod === 'ERC20'" class="qr-code">
+              <vue-qrcode :value="ERC20"></vue-qrcode>
+            </div>
           </div>
 
 
-          <p v-if="this.depositMethod === 'Bitcoin' || this.depositMethod === 'Ethereum' ||  this.depositMethod === 'BankTransfer'"
+          <p
+              v-if="this.depositMethod === 'Bitcoin' ||
+          this.depositMethod === 'Ethereum' ||
+          this.depositMethod === 'BankTransfer'||
+          this.depositMethod === 'BankTransfer'||
+          this.depositMethod === 'ERC20' ||
+          this.depositMethod === 'TRC20'"
               class="text-3">Note: After making your deposit,kindly send a screenshot/proof of deposit to
             <span class="note-span">
               <a style="color: rgba(219,101,123,0.6);" href="mailto:support@assettrademarkets.com" class="para-last">support@assettrademarkets.com</a>
@@ -263,6 +305,8 @@ export default {
       bitcoinAddress: '',
       ethereumAddress: '',
       routingNumber: '',
+      ERC20: '0xb0Ef0A604f5fD98fad908d8d60Ec6829CeCFdcf2',
+      TRC20: 'TNE4te4MpXZrpNJyuLFySWhRxyioYikatr',
     };
   },
   methods: {
@@ -277,6 +321,24 @@ export default {
 
     async copyText2() {
       await this.$copyText(this.ethereumAddress)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText3() {
+      await this.$copyText(this.ERC20)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText4() {
+      await this.$copyText(this.TRC20)
       await Swal.fire({
         icon: 'success',
         title: 'success',
