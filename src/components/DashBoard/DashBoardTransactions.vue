@@ -5,8 +5,8 @@
 
       <div class="settings-alpha">
         <div class="settings-links">
-          <router-link to="/deposit-transactions" class="account-links">Deposit History</router-link>
-          <router-link to="/withdrawal-transactions" class="account-links">Withdrawal History</router-link>
+          <router-link to="/deposit-transactions" class="account-links">Deposit</router-link>
+          <router-link to="/withdrawal-transactions" class="account-links">Withdrawal</router-link>
           <router-view v-slot="{ Component }">
             <transition name="route" mode="out-in">
               <component :is="Component"></component>
@@ -55,9 +55,9 @@ export default {
   font-size: 14px;
 }
 .account-links:hover{
-  background-color: #af910d;
-  border:1px solid #af910d;
-  color: #fff;
+  background-color: #ffffff;
+  border:1px solid #ffffff;
+  color: #0f171c;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -75,9 +75,9 @@ export default {
   font-size: 14px;
 }
 .account-links2:hover{
-  background-color: #af910d;
-  border:1px solid #af910d;
-  color: #fff;
+  background-color: #ffffff;
+  border:1px solid #ffffff;
+  color: #0f171c;
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
