@@ -103,13 +103,6 @@ export default {
           });
     }
 
-    // fetchBitcoinRate() {
-    //   axios.get('https://api.coindesk.com/v1/bpi/currentprice/BTC.json')
-    //       .then(response => {
-    //         this.bitcoinRate = response.data.bpi.USD.rate_float;
-    //       })
-    //       .catch(error => console.error(error));
-    // },
   },
   created() {
     this.fetchBitcoinRate()
@@ -124,7 +117,6 @@ export default {
 
     StoreUtils.rootGetters(StoreUtils.getters.auth.getReadUserById)
   },
-
   mounted() {
     this.fetchBitcoinRate()
     this.userId = localStorage.getItem('userId')
