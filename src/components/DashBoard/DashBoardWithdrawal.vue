@@ -73,7 +73,7 @@
                 <!--              <option :value="null" disabled>Select Digital Currency</option>-->
                 <option value="Bitcoin">Bitcoin</option>
                 <option value="Ethereum">Ethereum</option>
-                <!--          <option value="USDT">USDT</option>-->
+                <option value="USDT">USDT</option>
               </select>
             </div>
 
