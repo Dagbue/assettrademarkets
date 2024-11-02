@@ -8,7 +8,7 @@
             href="mailto:support@assettrademarkets.com">support@assettrademarkets.com</a></p>
       </div>
       <div class="seperate mobile">
-        <p class="download-sub">53 Bristol Road Bristol Road, Chippenham, England, SN15 1NT</p>
+        <p class="download-sub">75 Uxbridge Rd, London W5 5SL, England UK</p>
       </div>
 
       <div class="button-seprate" @click="onPostClick">

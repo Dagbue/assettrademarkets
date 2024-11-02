@@ -12,8 +12,8 @@
           <div class="footer-link-container">
             <h3 class="footer-title">About Us</h3>
             <p class="footer-link width">
-              Established on November 14, 2016, Asset Trade Markets has its headquarters at 53 Bristol Road
-              Bristol Road, Chippenham, England, SN15 1NT with the official registration under company number 10477019.
+              Established on November 14, 2016, Asset Trade Markets has its headquarters at 75 Uxbridge Rd, London W5
+              5SL, UK with the official registration under company number 10588120.
               Our company takes pride
               in being a trusted and innovative digital asset, stocks, forex trading platform tailored for a global clientele,
               leveraging the cutting-edge technology. We are committed to delivering a secure and reliable
@@ -46,7 +46,7 @@
               <div class="social-logo">
                 <div class="last-div">
                   <i class='bx bxs-map' ></i>
-                  <p class="last-div-para contain">53 Bristol Road Bristol Road, Chippenham, England, SN15 1NT</p>
+                  <p class="last-div-para contain">75 Uxbridge Rd, London W5 5SL,England UK</p>
                 </div>
               </div>
               <div class="social-logo">
@@ -226,7 +226,7 @@ export default {
   /*padding-right: 5%;*/
 }
 .stay-connected{
-
+  margin-right: 7%;
 }
 .socials-container {
   display: flex;
@@ -374,6 +374,9 @@ a{
   }
   .copyright{
     font-size: 17px;
+  }
+  .stay-connected{
+    margin-right: unset;
   }
 }
 @media (max-width: 700px) {
