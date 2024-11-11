@@ -1058,44 +1058,6 @@ export default {
     };
   },
   methods: {
-    // showToast() {
-    //   Toastify({
-    //     text: "This is a toast",
-    //     duration: 5000,
-    //     destination: "https://github.com/apvarun/toastify-js",
-    //     newWindow: true,
-    //     close: true,
-    //     gravity: "bottom", // `top` or `bottom`
-    //     position: "left", // `left`, `center` or `right`
-    //     stopOnFocus: true, // Prevents dismissing of toast on hover
-    //     style: {
-    //       background: "linear-gradient(to right, grey, grey)",
-    //       width: "400px"
-    //     },
-    //   }).showToast();
-    // },
-    // showToast() {
-    //   // Define the interval duration in milliseconds (e.g., every 10 seconds)
-    //   const intervalDuration = 10000;
-    //
-    //   setInterval(() => {
-    //     Toastify({
-    //       text: "This is a toast",
-    //       duration: 5000,
-    //       destination: "https://github.com/apvarun/toastify-js",
-    //       newWindow: true,
-    //       close: true,
-    //       gravity: "bottom", // `top` or `bottom`
-    //       position: "left", // `left`, `center` or `right`
-    //       stopOnFocus: true, // Prevents dismissing of toast on hover
-    //       style: {
-    //         background: "linear-gradient(to right, grey, grey)",
-    //         width: "400px"
-    //       },
-    //     }).showToast();
-    //   }, intervalDuration);
-    // }
-
     shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         // Generate random index
@@ -1137,37 +1099,6 @@ export default {
         this.currentMessageIndex++; // Move to the next message
       }, intervalDuration);
     }
-
-
-    // showToast() {
-    //   const intervalDuration = 20000; // Interval duration in milliseconds
-    //
-    //   const intervalId = setInterval(() => {
-    //     // Check if all messages have been shown
-    //     if (this.currentMessageIndex >= this.messages.length) {
-    //       clearInterval(intervalId); // Clear the interval
-    //       return; // Exit the function
-    //     }
-    //
-    //     // Show the toast with the current message
-    //     Toastify({
-    //       text: this.messages[this.currentMessageIndex],
-    //       duration: 5000,
-    //       close: true,
-    //       gravity: "bottom",
-    //       position: "left",
-    //       stopOnFocus: true,
-    //       style: {
-    //         background: "linear-gradient(to right, #ffffff, #ffffff)",
-    //         width: "320px",
-    //         padding: "10px",
-    //         color: "#232323"
-    //       },
-    //     }).showToast();
-    //
-    //     this.currentMessageIndex++; // Move to the next message
-    //   }, intervalDuration);
-    // }
   },
 
   mounted() {

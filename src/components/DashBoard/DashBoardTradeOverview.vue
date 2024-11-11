@@ -107,8 +107,6 @@
 </template>
 
 <script>
-
-
 import StoreUtils from "@/utility/StoreUtils";
 import {mapState} from "vuex";
 import BaseLoader from "@/components/BaseComponents/BaseLoader.vue";

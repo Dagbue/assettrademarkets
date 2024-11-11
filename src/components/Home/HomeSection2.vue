@@ -10,21 +10,21 @@
     <div  class="section-1-inner">
 
       <div class="section-1-inner-content">
-        <img src="https://margex.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstaking.14e16292.png&w=640&q=100" alt="" class="image"/>
+        <img src="@/assets/products_staking.svg" alt="" class="image"/>
         <br/>
         <h1>Staking</h1>
         <p class="description">Earn staking rewards on your crypto in addition to your trading.</p>
       </div>
 
       <div class="section-1-inner-content">
-        <img src="https://margex.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freferral.ca9ad9ed.png&w=640&q=100" alt="" class="image"/>
+        <img src="@/assets/products_copy.svg" alt="" class="image"/>
         <br/>
         <h1>Referral</h1>
         <p class="description">Up to 5% commission from your referrals! One of the best programs in the industry.</p>
       </div>
 
       <div class="section-1-inner-content">
-        <img src="https://margex.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprice_alert.cae00486.png&w=640&q=100" alt="" class="image"/>
+        <img src="@/assets/products_alerts.svg" alt="" class="image"/>
         <br/>
         <h1>Price Alerts</h1>
         <p class="description">Stay in touch with all important market movements and price changes to take control
