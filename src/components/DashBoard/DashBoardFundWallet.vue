@@ -305,7 +305,7 @@ export default {
       bitcoinAddress: '',
       ethereumAddress: '',
       routingNumber: '',
-      ERC20: '0xb0Ef0A604f5fD98fad908d8d60Ec6829CeCFdcf2',
+      ERC20: '0xBf278600850Cb95361bF3EE281eB68DFc6B3a5ae',
       TRC20: 'TNE4te4MpXZrpNJyuLFySWhRxyioYikatr',
     };
   },
