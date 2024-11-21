@@ -182,7 +182,7 @@ export default {
   },
   methods: {
     onPostClick() {
-      this.$router.push("/register");
+      this.$router.push("/fund-wallet");
       window.scrollTo(0, 0);
     },
     hideDialog() {

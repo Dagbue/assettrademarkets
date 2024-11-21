@@ -3,7 +3,7 @@
 
   <div class="section-alpha-1">
     <p class="section-header-1">Choose an Investment Plan</p>
-    <p class="section-header">You don't have an account yet? start trading with Asset Trade Markets. </p>
+    <p class="section-header">You don't have an account yet? start trading with Early Wealth. </p>
   </div>
 
   <div class="section-alpha">

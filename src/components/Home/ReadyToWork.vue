@@ -5,7 +5,7 @@
       <div class="seperate mobile">
         <p class="download-sub"><a
             style="color: #000000;"
-            href="mailto:support@assettrademarkets.com">support@assettrademarkets.com</a></p>
+            href="mailto:support@earlywealthtrd.com">support@earlywealthtrd.com</a></p>
       </div>
       <div class="seperate mobile">
         <p class="download-sub">75 Uxbridge Rd, London W5 5SL, England UK</p>

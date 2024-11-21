@@ -19,7 +19,7 @@
         <figcaption>
           <blockquote>
             <p>This is a more than a trading company. Giving you guys 5 ratings for your support services. Great
-              company. Awesome support.. ATM is the best....</p>
+              company. Awesome support.. EWT is the best....</p>
           </blockquote>
           <h3>Ronald Dooms</h3>
           <h4>Investor.</h4>
@@ -28,8 +28,8 @@
       <figure class="snip1533">
         <figcaption>
           <blockquote>
-            <p>ATM has the simplest interface of all and also has the fastest entry point into the market.I was
-              a banker who was deep in debt, but  with the help of ATM ..., now I am living well and
+            <p>EWT has the simplest interface of all and also has the fastest entry point into the market.I was
+              a banker who was deep in debt, but  with the help of EWT ..., now I am living well and
               comfortable with my family</p>
           </blockquote>
           <h3>Theresa Williams</h3>
@@ -39,8 +39,8 @@
       <figure class="snip1533">
         <figcaption>
           <blockquote>
-            <p>My name is William Tyler Pelicione. Few weeks I have traded with ATM, i made enough profit of
-              1.8btc and my withdrawal was processed instantly. ATM is the best.</p>
+            <p>My name is William Tyler Pelicione. Few weeks I have traded with EWT, i made enough profit of
+              1.8btc and my withdrawal was processed instantly. EWT is the best.</p>
           </blockquote>
           <h3>William Tyler Pelicione</h3>
           <h4>Business Woman</h4>
@@ -52,9 +52,9 @@
       <figure class="snip1533">
         <figcaption>
           <blockquote>
-            <p>I joined ATM as a way of earning income and consolidating on my 9-5 which had placed me in a loop for
+            <p>I joined EWT as a way of earning income and consolidating on my 9-5 which had placed me in a loop for
               so long. My experience has been nothing short of beautiful in the few years that I've been with the
-              platform. Iâ€™ve been able to keep expanding my goals off profits from ATM and it keeps looking better.</p>
+              platform. Iâ€™ve been able to keep expanding my goals off profits from EWT and it keeps looking better.</p>
           </blockquote>
           <h3>Mark Rutherfod</h3>
           <h4>Investor.</h4>
@@ -64,7 +64,7 @@
         <figcaption>
           <blockquote>
             <p>After losing my way in the cryptocurrency space a few times, I made a decision to turn towards an
-              opportunity that is consistent, dependable, and I could build steadily with, and ATM has ticked all
+              opportunity that is consistent, dependable, and I could build steadily with, and EWT has ticked all
               these boxes by providing all the tools I need to earn weekly, but most importantly the guidance that
               comes with the experience is simply top quality.</p>
           </blockquote>

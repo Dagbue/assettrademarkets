@@ -4,7 +4,7 @@
     <div class="section-alpha">
 
       <div class="section-1">
-        <div class="text-1">Upgrade the way <br/> you trade in
+        <div class="text-1">Building Wealth<br/> Through  Diversified <br/> Investments In
 <!--          <span class="items-switch">-->
 <!--            <span class="forex">Forex</span>-->
 <!--            <span class="crypto">Crypto</span>-->
@@ -57,6 +57,7 @@ export default {
       currentIndex: 0,
       items: [
         { name: 'Forex', color: '#009688' },  // Red
+        { name: 'RealEstate', color: '#984613' }  ,  // Yellow
         { name: 'Crypto', color: '#3071EE' }, // Green
         { name: 'Stocks', color: '#5d78ff' }, // Blue
         { name: 'CFD', color: '#fe9431' }    // Yellow
@@ -137,7 +138,7 @@ video{
   border-radius: 30px;
 }
 .text-1{
-  font-size: 56px;
+  font-size: 46px;
   font-family: 'BR-Firma-Bold', sans-serif;
   line-height: 64px;
   letter-spacing: -0.01em;

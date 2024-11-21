@@ -38,12 +38,12 @@
         <div class="box">
           <img src="https://margex.com/images/products_crypto.svg" class="about-image" alt="assets-image"/>
           <h3>Buy Crypto</h3>
-          <p>Purchase cryptocurrency through Asset Trade Markets trusted partners.</p>
+          <p>Purchase cryptocurrency through Early Wealth trusted partners.</p>
         </div>
         <div class="box">
           <img src="https://margex.com/images/products_mobile.svg" class="about-image" alt="assets-image"/>
           <h3>Two Mobile Apps</h3>
-          <p>"Asset Trade Markets app" - For Traders "Copy trading app" - For Followers</p>
+          <p>"Early Wealth app" - For Traders "Copy trading app" - For Followers</p>
         </div>
       </div>
 

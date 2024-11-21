@@ -1,8 +1,9 @@
 <template>
   <div>
     <hero-section/>
-    <home-section1/>
+    <retirement-planning/>
     <home-section2/>
+    <home-section1/>
     <home-section4/>
     <home-section5/>
     <features-part/>
@@ -32,10 +33,12 @@ import HomeSection9 from "@/components/Home/HomeSection9.vue";
 import ReadyToWork from "@/components/Home/ReadyToWork.vue";
 import FooterHome from "@/components/BaseComponents/FooterHome.vue";
 import BlogTable from "@/components/BaseComponents/tables/BlogTable.vue";
+import RetirementPlanning from "@/components/Home/RetirementPlanning.vue";
 
 export default {
   name: 'HomeView',
   components: {
+    RetirementPlanning,
     BlogTable,
     FooterHome,
     ReadyToWork,

@@ -12,7 +12,7 @@
           <div class="footer-link-container">
             <h3 class="footer-title">About Us</h3>
             <p class="footer-link width">
-              Established on November 14, 2016, Asset Trade Markets has its headquarters at 75 Uxbridge Rd, London W5
+              Established on November 14, 2016, Early Wealth has its headquarters at 75 Uxbridge Rd, London W5
               5SL, UK with the official registration under company number 10588120.
               Our company takes pride
               in being a trusted and innovative digital asset, stocks, forex trading platform tailored for a global clientele,
@@ -52,7 +52,7 @@
               <div class="social-logo">
                 <div class="last-div">
                   <i class='bx bx-mail-send' style='color:#ffffff'></i>
-                  <p class="last-div-para"><a href="mailto:support@assettrademarkets.com">support@assettrademarkets.com</a></p>
+                  <p class="last-div-para"><a href="mailto:support@earlywealthtrd.com">support@earlywealthtrd.com</a></p>
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@
       </div>
       <hr/>
       <div class="copyright">
-        <p>Asset Trade Markets LLC is part of Asset Trade Markets Group of companies with broker entities
-          that are authorised and regulated across multiple jurisdictions. Asset Trade Markets LLC has it's
+        <p>Early Wealth LLC is part of Early Wealth Group of companies with broker entities
+          that are authorised and regulated across multiple jurisdictions. Early Wealth LLC has it's
           business address at the United Kingdom.</p>
         <br/>
         <p>The objects of the Company are all subject matters not forbidden by International Business Companies
@@ -105,9 +105,9 @@
 
       </div>
       <div class="copyright">
-        <p>ATM Markets is, depending on the context, a reference to ATM Markets Germany GmbH, ATM Markets UK plc or
-          ATM Spreadbet plc. ATM Markets Germany GmbH is a company licensed and regulated by the Bundesanstalt für
-          Finanzdienstleistungsaufsicht (BaFin) under registration number 154814. ATM Markets UK Plc and ATM Spreadbet
+        <p>EWT Markets is, depending on the context, a reference to EWT Markets Germany GmbH, EWT Markets UK plc or
+          EWT Spreadbet plc. EWT Markets Germany GmbH is a company licensed and regulated by the Bundesanstalt für
+          Finanzdienstleistungsaufsicht (BaFin) under registration number 154814. EWT Markets UK Plc and EWT Spreadbet
           plc are registered in the Register of Companies of the Financial Conduct Authority under registration numbers
           173730 and 170627.</p>
         <br/>

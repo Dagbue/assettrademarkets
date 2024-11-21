@@ -103,7 +103,7 @@ export default {
       testimonials: [
         {
           id: 1,
-          text: "Asset Trade Markets has created a quality platform for trading cryptocurrency derivatives. We were most impressed " +
+          text: "Early Wealth has created a quality platform for trading cryptocurrency derivatives. We were most impressed " +
               "by the exchange’s design and overall user experience, which is truly first-class.",
           author: "Emma Avon",
           source: "Investor",
@@ -112,7 +112,7 @@ export default {
         },
         {
           id: 2,
-          text: "Asset Trade Markets is gradually taking over the crypto,Forex,and stocks derivatives market through its " +
+          text: "Early Wealth is gradually taking over the crypto,Forex,and stocks derivatives market through its " +
               "unique and user-friendly platform.",
           author: "Casper Brown",
           source: "Trader",
@@ -121,7 +121,7 @@ export default {
         },
         {
           id: 3,
-          text: "Asset Trade Markets is a true refreshment in the crypto derivatives space. The platform offers low fees, high " +
+          text: "Early Wealth is a true refreshment in the crypto derivatives space. The platform offers low fees, high " +
               "leverage and security standards.",
           author: "Rene Peters",
           source: "Doctor",
@@ -130,7 +130,7 @@ export default {
         },
         {
           id: 4,
-          text: "Asset Trade Markets is a solid broker for beginners that want to learn how to trade with leverage." +
+          text: "Early Wealth is a solid broker for beginners that want to learn how to trade with leverage." +
               " There are no complicated features or distractions.",
           author: "Kevin",
           source: "Student",

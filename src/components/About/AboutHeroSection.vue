@@ -9,7 +9,7 @@
       <div class="section-1">
 
         <div class="text-part">
-          <p class="text-3">Asset Trade Markets</p>
+          <p class="text-3">Early Wealth</p>
           <p class="text-1">Is a Digital Asset <span>Trading</span> and <span>Investment</span> Platform</p>
           <p class="text-2">That provides access to a cutting edge trading infrastructure worldwide.</p>
 

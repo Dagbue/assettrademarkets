@@ -7,7 +7,7 @@
             <img src="@/assets/logo.png" alt="logo" class="company-logo">
           </router-link>
           <h2>
-            Create New Asset Trade Markets Account
+            Create New Early Wealth Account
           </h2>
 <!--          <p>-->
 <!--            NB: Investors are not allowed to keep their trade account dormant 2-->
@@ -342,7 +342,7 @@
                   required
               />
               <label for="remember-me" class="checkbox-text"
-              >I Agree to Asset Trade Markets
+              >I Agree to Early Wealth
                 <a  class="terms" @click="showDialog">Terms And Conditions</a></label
               >
             </div>

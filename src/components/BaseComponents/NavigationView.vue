@@ -12,7 +12,7 @@
 
           <p class="topmost-header-text">
             <i class='bx bx-mail-send' style='color:#ffffff'></i>
-            support@assettrademarkets.com
+            support@earlywealthtrd.com
           </p>
 
         <p class="topmost-header-text">
@@ -34,7 +34,7 @@
 
             <li class="link">
               <div class="dropdown-navigation">
-                <router-link  to="/about">Why ATM</router-link>
+                <router-link  to="/about">Why EWT</router-link>
               </div>
             </li>
 
@@ -84,7 +84,7 @@
               <div class="title">
                 <div class="title-content">
                   <router-link  to="/about">
-                    <p class="title-content-para" @click="toggleMobileNav2">Why ATM</p>
+                    <p class="title-content-para" @click="toggleMobileNav2">Why EWT</p>
                   </router-link>
                 </div>
               </div>
@@ -233,7 +233,7 @@ export default {
 }
 
 .logo {
-  width: 12%;
+  width: 13%;
   /*margin-left: 3%;*/
   margin-top: 0.5%;
   margin-bottom: 0.5%;

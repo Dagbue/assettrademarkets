@@ -2,7 +2,7 @@
   <div class="alpha">
 
     <div class="section-1">
-      <h2 class="text-1" style="text-align: center;">Asset Trade Markets is More than Just an Assets Trading Platform</h2>
+      <h2 class="text-1" style="text-align: center;"> Early Wealth is More than Just a Trading Platform</h2>
       <p class="text-2">Give your trading strategy the advantage with our better-than-market conditions.</p>
     </div>
 
@@ -113,7 +113,7 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
   font-size: 24px;
   padding-bottom: 10px;
   font-family: 'BR-Firma-Bold', sans-serif;

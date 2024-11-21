@@ -7,7 +7,7 @@
           <img src="@/assets/logo.png" alt="logo" class="company-logo">
           </router-link>
           <h2>
-            Sign In With Your <br/> <span class="header-span">Asset Trade Markets</span> <br/> Account
+            Sign In With Your <br/> <span class="header-span">Early Wealth</span> Account
           </h2>
         </div>
 

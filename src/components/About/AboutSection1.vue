@@ -84,7 +84,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /*padding-bottom: 3%;*/
+  padding-bottom: 3%;
   padding-top: 3%;
 }
 

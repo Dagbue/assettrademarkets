@@ -9,14 +9,14 @@
       >X</p>
       <div>
         <h4>Legal information and ownership of website</h4>
-        <p>Asset Trade Markets ("Website"), which includes all products and services offered by Asset Trade Markets,
-          is and remains the sole property of the Company. All rights are reserved in and for the Company Asset Trade Markets
+        <p>Early Wealth ("Website"), which includes all products and services offered by Early Wealth,
+          is and remains the sole property of the Company. All rights are reserved in and for the Company Early Wealth
           group is the owner of all the intellectual property rights, including trade names, trademarks, logos
-          and the trade names in and are exclusive to Asset Trade Markets at all times. Except where expressly stated
+          and the trade names in and are exclusive to Early Wealth at all times. Except where expressly stated
           to the contrary, copyright in the underlying HTML, text, graphics, audio clips, video clips and other information
           and material is owned by the Company. No person or entity may alter, modify, reproduce, distribute, display,
           exploit, transmit, transcribe, reproduce, redistribute, copy, post, store or translate into any other form,
-          any materials or media from the Website, without obtaining prior written permission from Asset Trade Markets
+          any materials or media from the Website, without obtaining prior written permission from Early Wealth
           Group.</p>
       </div>
       <div>
@@ -50,7 +50,7 @@
       </div>
       <div>
         <h4>Amendments</h4>
-        <p>Asset Trade Markets has the right to amend the Agreement without obtaining any prior consent from the Client.
+        <p>Early Wealth has the right to amend the Agreement without obtaining any prior consent from the Client.
           If the Organization makes any material change to the Agreement, it will give at least 100 (Hundred) Business
           Days’ notice of such change to the Client. Such amendment will become effective on the date specified in the
           notice. Unless otherwise agreed, an amendment will not affect any outstanding order or Transaction or any legal

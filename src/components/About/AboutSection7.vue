@@ -1,6 +1,6 @@
 <template>
   <div class="alpha">
-    <p class="section-header-1">Trade on the world index market with Asset Trade Markets.</p>
+    <p class="section-header-1">Trade on the world index market with Early Wealth.</p>
 <!--    <p class="section-header">You decide what to trade and when to trade it. We’re hard at work behind the scenes to-->
 <!--      minimize your costs and improve your execution.</p>-->
 

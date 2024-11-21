@@ -2,7 +2,7 @@
   <div class="alpha">
     <div class="section-alpha-1">
       <p class="section-header-1">Choose an Investment Plan</p>
-      <p class="section-header">You don't have an account yet? start trading with Asset Trade Markets.</p>
+      <p class="section-header">You don't have an account yet? start trading with Early Wealth.</p>
     </div>
 
     <div class="section-alpha">
@@ -160,10 +160,10 @@
       <section>
         <details>
           <summary>
-            WHAT IS ASSET TRADE MARKETS
+            WHAT IS EARLY WEALTH
           </summary>
           <p>
-            Asset Trade Markets is an officially registered company and conducts
+            Early Wealth is an officially registered company and conducts
             business under the laws of the UK Government. The company is involved
             in Stocks, options CFD , Forex and crypto. Also trading other valuable
             commodities/assets which we offer to our clients to earn from using a
@@ -186,7 +186,7 @@
             HOW CAN I MAKE SURE YOUR COMPANY IS A REAL AND NOT A FAKE ONE
           </summary>
           <p>
-            Asset Trade Markets is officially incorporated with the UK
+            Early Wealth is officially incorporated with the UK
             Companies Office. verify registration: (click here)
 <!--            <a href="https://find-and-update.company-information.service.gov.uk/company/10477019">-->
 <!--              https://find-and-update.company-information.service.gov.uk/company/10477019-->

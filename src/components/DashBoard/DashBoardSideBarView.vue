@@ -4,7 +4,7 @@
     <div  class="sidebar" v-show="!mobile">
 
       <div class="logo">
-        <img src="@/assets/inverse.png" alt="logo" class="afo-logo" />
+        <img src="@/assets/logo.png" alt="logo" class="afo-logo" />
       </div>
 
       <ul class="nav-list" >
@@ -92,7 +92,7 @@
 <!--      </div>-->
 
       <div class="logo">
-        <img src="@/assets/inverse.png" alt="logo" class="afo-logo-2" />
+        <img src="@/assets/logo.png" alt="logo" class="afo-logo-2" />
       </div>
 
       <ul>
@@ -224,11 +224,17 @@ export default {
   display: flex;
 }
 .afo-logo{
-  width: 85%;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 .afo-logo-2{
   width: 75%;
   margin-left: 10%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 body{
   position: relative;

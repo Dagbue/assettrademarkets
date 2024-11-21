@@ -1,11 +1,11 @@
 <template>
   <div class="alpha">
 
-    <p class="section-header-1">Forex, Real Estate, Crypto, CFD, and Stocks Trading Made Easy</p>
+    <p class="section-header-1">Retirement Planning</p>
     <p class="section-header">
-      Invest globally in stocks, options, futures, currencies, bonds and funds from a single unified platform.
-      Fund your account in multiple currencies and trade assets denominated in multiple currencies. Access market
-      data 24 hours a day and six days a week.
+      Secure your future by diversifying investments in cryptocurrencies and traditional assets on a unified
+      platform. Enjoy global trading, multi-currency support, and 24/6 market access to make informed retirement
+      planning decisions.
     </p>
 
 
@@ -14,27 +14,32 @@
 
       <div class="section-2">
 
-        <img src="@/assets/section-1-img.jpg" alt="image" class="image-2" />
+        <img src="@/assets/retirement.jpg" alt="image" class="image-2" />
 
       </div>
 
       <div class="section-1">
 
         <div class="text-part">
-          <p class="text-1">Diversify your portfolio</p>
-          <p class="text-2">with popular names from various global stock markets, like Alphabet, Boeing, McDonald's,
-            Nike and more.</p>
+          <p class="text-1">Diversify for Retirement Security</p>
+          <p class="text-2">Build a robust retirement portfolio with a mix of global assets, including popular stocks
+            like Alphabet, Boeing, McDonald's, and Nike, alongside cryptocurrencies and more..</p>
         </div>
 
         <div class="text-part">
-          <p class="text-1">Low and stable spreads</p>
-          <p class="text-2">Take advantage of our tight and reliable spreads and trade with peace of mind.</p>
+          <p class="text-1">Benefit from Consistent Returns</p>
+          <p class="text-2">
+            Enjoy tight, stable spreads that help you maximize your investments while trading with confidence
+            and peace of mind.
+          </p>
         </div>
 
         <div class="text-part">
-          <p class="text-1">Enjoy superior execution speeds</p>
-          <p class="text-2">Experience lightning-fast trade execution across Forex, Crypto, CFDs, and Stocks
-            , ensuring you never miss a market move.</p>
+          <p class="text-1">Seamless Execution for Smarter Investing</p>
+          <p class="text-2">
+            Take advantage of superior trade execution across Forex, Crypto, CFDs, and Stocks, ensuring you stay
+            ahead in your retirement planning strategy.
+          </p>
         </div>
 
 
@@ -42,53 +47,13 @@
 
 
     </div>
-
-
-
-
-
-
-    <div class="section-alpha-2">
-
-      <hr class="new1">
-
-      <div class="section">
-
-        <div class="section-inner">
-                    <img src="@/assets/people-group.svg" alt="" class="image" />
-          <p class="text-1-1">700,000+ active traders</p>
-        </div>
-
-        <div class="section-inner">
-                    <img src="@/assets/license.svg" alt="" class="image" />
-          <p class="text-1-1">Multiple regulatory licenses</p>
-        </div>
-
-        <div class="section-inner">
-                    <img src="@/assets/custom_support.svg" alt="" class="image" />
-          <p class="text-1-1">24/7 customer support</p>
-        </div>
-
-        <div class="section-inner">
-                    <img src="@/assets/certificate.svg" alt="" class="image" />
-          <p class="text-1-1">PCI DSS certified</p>
-        </div>
-
-      </div>
-
-
-    </div>
-
-
-
-
 
   </div>
 </template>
 
 <script>
 export default {
-  name: "HomeSection1",
+  name: "RetirementPlanning"
 }
 </script>
 
@@ -140,6 +105,7 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2%;
 }
 
 .cards{

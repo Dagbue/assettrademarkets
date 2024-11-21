@@ -20,7 +20,7 @@
 
         <p class="fund-wallet" @click="onPostClick">
           <i class='bx bx-plus' ></i>
-          Fund Wallet
+          Fund your Wallet
         </p>
 
       </div>
@@ -1641,12 +1641,14 @@ i{
 
 .fund-wallet{
   display: flex;
+  justify-content: center;
   align-content: center;
   align-items: center;
+  text-align: center;
   padding: 8px 14px;
-  gap: 8px;
+  gap: 5px;
   font-size: 12px;
-  width: 130px;
+  width: 180px;
   height: 30px;
   background: #0f171c;
   color: #ffffff;

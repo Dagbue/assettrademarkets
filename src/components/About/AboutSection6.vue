@@ -1,7 +1,7 @@
 <template>
   <div class="alpha">
     <p class="section-header-1">Open an account and start trading commodities</p>
-    <p class="section-header">Your funds and data are always secure. With Asset Trade Markets you’re protected
+    <p class="section-header">Your funds and data are always secure. With Early Wealth you’re protected
       by industry-leading protocols.</p>
 
 

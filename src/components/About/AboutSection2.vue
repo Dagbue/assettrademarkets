@@ -1,7 +1,7 @@
 <template>
   <div class="alpha">
     <p class="section-header-1">There’s a time and a place for risk</p>
-    <p class="section-header">Your funds and data are always secure. With Asset Trade Markets you’re protected
+    <p class="section-header">Your funds and data are always secure. With Early Wealth you’re protected
       by industry-leading protocols.</p>
 
 
@@ -11,7 +11,7 @@
 
         <div class="text-part">
           <p class="text-1">Setting New Standards in Global Finance Technology</p>
-          <p class="text-2">Asset Trade Markets is set on a mission to provide a fair, secure, and easy-to-use
+          <p class="text-2">Early Wealth is set on a mission to provide a fair, secure, and easy-to-use
             platform with the highest class of financial technologies globally.</p>
         </div>
 
