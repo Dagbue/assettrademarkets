@@ -54,7 +54,7 @@
           <blockquote>
             <p>I joined EWT as a way of earning income and consolidating on my 9-5 which had placed me in a loop for
               so long. My experience has been nothing short of beautiful in the few years that I've been with the
-              platform. Iâ€™ve been able to keep expanding my goals off profits from EWT and it keeps looking better.</p>
+              platform. I've been able to keep expanding my goals off profits from EWT and it keeps looking better.</p>
           </blockquote>
           <h3>Mark Rutherfod</h3>
           <h4>Investor.</h4>
