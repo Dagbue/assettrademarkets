@@ -368,7 +368,7 @@ input::placeholder {
     font-size: 23px;
   }
   .company-logo{
-    width: 45%;
+    width: 50%;
     margin-top: unset;
   }
 }

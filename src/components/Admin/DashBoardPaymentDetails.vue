@@ -5,43 +5,49 @@
     <hr/>
     <div class="form">
 
-          <div class="space">
+      <div class="space">
             <label>Enter Bitcoin Address</label>
             <input type="text" v-model="bitcoinAddress"  class="form-input"/>
           </div>
-
-
-          <div class="space">
+      <div class="space">
             <label>Enter Ethereum Address</label>
             <input type="text" v-model="ethereumAddress"   class="form-input"/>
           </div>
 
+      <div class="space">
+        <label>Enter Litecoin Address</label>
+        <input type="text" v-model="litecoinAddress"  class="form-input"/>
+      </div>
+      <div class="space">
+        <label>Enter Dogecoin Address</label>
+        <input type="text" v-model="dogecoinAddress"   class="form-input"/>
+      </div>
+      <div class="space">
+        <label>Enter Xrp Address</label>
+        <input type="text" v-model="xrpAddress"  class="form-input"/>
+      </div>
 
+      <div class="space">
+        <label>USDT ( ERC20 NETWORK ) Address</label>
+        <input type="text" v-model="ERC20"   class="form-input"/>
+      </div>
+      <div class="space">
+        <label>USDT ( TRC20 NETWORK ) Address</label>
+        <input type="text" v-model="TRC20"  class="form-input"/>
+      </div>
 
-
-          <div class="space">
-            <label>Bank Name</label>
-            <input type="text" v-model="bankName"  class="form-input"/>
-          </div>
-
-
-
-
-          <div class="space">
+      <div class="space">
+        <label>Bank Name</label>
+        <input type="text" v-model="bankName"  class="form-input"/>
+      </div>
+      <div class="space">
             <label>Account Number</label>
             <input type="text" v-model="accountNumber"  class="form-input"/>
           </div>
-
-
-
-
-
-          <div class="space">
+      <div class="space">
             <label>Routing Number</label>
             <input type="text" v-model="routingNumber"  class="form-input"/>
           </div>
-
-
 
 
         <div class="btn-alpha">
@@ -53,8 +59,6 @@
           <p @click="update" class="btn">Update Payment details</p>
 
         </div>
-
-
     </div>
   </div>
 
@@ -76,6 +80,12 @@ export default {
       bitcoinAddress: '',
       ethereumAddress: '',
       routingNumber: '',
+
+      litecoinAddress: '',
+      dogecoinAddress: '',
+      xrpAddress: '',
+      ERC20: '',
+      TRC20: '',
     };
   },
   computed:{
@@ -90,16 +100,21 @@ export default {
   methods:{
     async update() {
       await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.updatePaymentWallet, {
-        walletId: 1,
+        walletId: 3,
         bitcoinAddress: this.bitcoinAddress,
         ethereumAddress: this.ethereumAddress,
         bankName: this.bankName,
         accountNumber: this.accountNumber,
-        routingNumber: this.routingNumber
+        routingNumber: this.routingNumber,
+        litecoinAddress: this.litecoinAddress,
+        dogecoinAddress: this.dogecoinAddress,
+        xrpAddress: this.xrpAddress,
+        ERC20: this.ERC20,
+        TRC20: this.TRC20,
       })
 
       await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-        walletId: 1,
+        walletId: 3,
       })
 
       await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
@@ -108,7 +123,7 @@ export default {
     },
     press(){
       StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-        walletId: 1,
+        walletId: 3,
       })
 
       StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
@@ -121,11 +136,17 @@ export default {
       this.bankName = this.readPaymentWalletById.paymentWallet.bankName;
       this.accountNumber = this.readPaymentWalletById.paymentWallet.accountNumber;
       this.routingNumber = this.readPaymentWalletById.paymentWallet.routingNumber;
+
+      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.litecoinAddress;
+      this.dogecoinAddress = this.readPaymentWalletById.paymentWallet.dogecoinAddress;
+      this.xrpAddress = this.readPaymentWalletById.paymentWallet.xrpAddress;
+      this.ERC20 = this.readPaymentWalletById.paymentWallet.ERC20;
+      this.TRC20 = this.readPaymentWalletById.paymentWallet.TRC20;
     },
   },
   async created() {
     await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 1,
+      walletId: 3,
     })
     await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
@@ -135,7 +156,7 @@ export default {
 
   async mounted() {
     await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 1,
+      walletId: 3,
     })
 
     await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)

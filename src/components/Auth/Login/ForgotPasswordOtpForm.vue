@@ -552,7 +552,7 @@ input[type=number] {
     margin-top: 3%;
   }
   .company-logo{
-    width: 40%;
+    width: 50%;
   }
 }
 

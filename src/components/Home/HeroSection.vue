@@ -18,7 +18,7 @@
           </span>
         </div>
 
-        <p class="text-2">Trade with the world’s largest retail <br/> broker and benefit from better-than-market conditions.</p>
+        <p class="text-2">Partner with a trusted global broker and <br/> enjoy access to better-than-market conditions.</p>
 
 
         <div class="button-group">

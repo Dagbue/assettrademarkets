@@ -73,7 +73,11 @@
                 <!--              <option :value="null" disabled>Select Digital Currency</option>-->
                 <option value="Bitcoin">Bitcoin</option>
                 <option value="Ethereum">Ethereum</option>
-                <option value="USDT">USDT</option>
+                <option value="Dogecoin">Dogecoin</option>
+                <option value="Litecoin">Litecoin</option>
+                <option value="Xrp">Xrp</option>
+                <option value="ERC20">USDT ( ERC20 NETWORK )</option>
+                <option value="TRC20">USDT ( TRC20 NETWORK )</option>
               </select>
             </div>
 

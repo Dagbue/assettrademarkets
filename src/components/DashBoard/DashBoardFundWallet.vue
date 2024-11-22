@@ -72,9 +72,12 @@
               <!--              <option :value="null" disabled>Select Digital Currency</option>-->
               <option value="Bitcoin">Bitcoin</option>
               <option value="Ethereum">Ethereum</option>
-              <option value="BankTransfer">Bank Transfer</option>
+              <option value="Dogecoin">Dogecoin</option>
+              <option value="Litecoin">Litecoin</option>
+              <option value="Xrp">Xrp</option>
               <option value="ERC20">USDT ( ERC20 NETWORK )</option>
               <option value="TRC20">USDT ( TRC20 NETWORK )</option>
+              <option value="BankTransfer">Bank Transfer</option>
             </select>
           </div>
 
@@ -84,6 +87,11 @@
           this.depositMethod === 'Ethereum' ||
           this.depositMethod === 'BankTransfer'||
           this.depositMethod === 'BankTransfer'||
+
+           this.depositMethod === 'Dogecoin' ||
+          this.depositMethod === 'Litecoin'||
+          this.depositMethod === 'Xrp'||
+
           this.depositMethod === 'ERC20' ||
           this.depositMethod === 'TRC20'"
              class="text-3">Transfer desired amount to the details displayed below and have your balance funded</p>
@@ -112,7 +120,7 @@
 
             <div v-if="this.depositMethod === 'ERC20' ">
               <p class="text-4">Wallet Name : USDT ( ERC20 NETWORK )</p>
-              <p class="text-5">Wallet Address : 0xBf278600850Cb95361bF3EE281eB68DFc6B3a5ae</p>
+              <p class="text-5">Wallet Address : {{this.ERC20}}</p>
               <p @click="copyText3" class="button"
                  style="background-color: #5d78ff;
                         width: 100px;height: 30px;font-size: 11px;
@@ -122,8 +130,38 @@
 
             <div v-if="this.depositMethod === 'TRC20' ">
               <p class="text-4">Wallet Name : USDT ( TRC20 NETWORK )</p>
-              <p class="text-5">Wallet Address : TY9MEKpmejPGsDXTcTFZz2cBpxeJq351vA</p>
+              <p class="text-5">Wallet Address : {{this.TRC20}}</p>
               <p @click="copyText4" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
+            </div>
+
+            <div v-if="this.depositMethod === 'Dogecoin' ">
+              <p class="text-4">Wallet Name : {{this.depositMethod}}</p>
+              <p class="text-5">Wallet Address : {{this.dogecoinAddress}}</p>
+              <p @click="copyText5" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
+            </div>
+
+            <div v-if="this.depositMethod === 'Litecoin' ">
+              <p class="text-4">Wallet Name : {{this.depositMethod}}</p>
+              <p class="text-5">Wallet Address : {{this.litecoinAddress}}</p>
+              <p @click="copyText6" class="button"
+                 style="background-color: #5d78ff;
+                        width: 100px;height: 30px;font-size: 11px;
+                      border: 1px solid #5d78ff;float: right;">
+                Copy</p>
+            </div>
+
+            <div v-if="this.depositMethod === 'Xrp' ">
+              <p class="text-4">Wallet Name : {{this.depositMethod}}</p>
+              <p class="text-5">Wallet Address : {{this.xrpAddress}}</p>
+              <p @click="copyText7" class="button"
                  style="background-color: #5d78ff;
                         width: 100px;height: 30px;font-size: 11px;
                       border: 1px solid #5d78ff;float: right;">
@@ -150,6 +188,19 @@
               <vue-qrcode :value="ethereumAddress"></vue-qrcode>
             </div>
 
+            <div v-if="this.depositMethod === 'Dogecoin'" class="qr-code">
+              <vue-qrcode :value="dogecoinAddress"></vue-qrcode>
+            </div>
+
+            <div v-if="this.depositMethod === 'Litecoin'" class="qr-code">
+              <vue-qrcode :value="litecoinAddress"></vue-qrcode>
+            </div>
+
+            <div v-if="this.depositMethod === 'Xrp'" class="qr-code">
+              <vue-qrcode :value="xrpAddress"></vue-qrcode>
+            </div>
+
+
             <div v-if="this.depositMethod === 'TRC20' " class="qr-code">
               <vue-qrcode :value="TRC20"></vue-qrcode>
             </div>
@@ -165,6 +216,9 @@
           this.depositMethod === 'Ethereum' ||
           this.depositMethod === 'BankTransfer'||
           this.depositMethod === 'BankTransfer'||
+          this.depositMethod === 'Dogecoin' ||
+          this.depositMethod === 'Litecoin'||
+          this.depositMethod === 'Xrp'||
           this.depositMethod === 'ERC20' ||
           this.depositMethod === 'TRC20'"
               class="text-3">Note: After making your deposit,kindly send a screenshot/proof of deposit to
@@ -305,8 +359,12 @@ export default {
       bitcoinAddress: '',
       ethereumAddress: '',
       routingNumber: '',
-      ERC20: '0xBf278600850Cb95361bF3EE281eB68DFc6B3a5ae',
-      TRC20: 'TNE4te4MpXZrpNJyuLFySWhRxyioYikatr',
+      ERC20: '',
+      TRC20: '',
+
+      litecoinAddress: '',
+      dogecoinAddress: '',
+      xrpAddress: '',
     };
   },
   methods: {
@@ -339,6 +397,33 @@ export default {
 
     async copyText4() {
       await this.$copyText(this.TRC20)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText5() {
+      await this.$copyText(this.dogecoinAddress)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText6() {
+      await this.$copyText(this.litecoinAddress)
+      await Swal.fire({
+        icon: 'success',
+        title: 'success',
+        text: 'Wallet Address Copied Successfully',
+      });
+    },
+
+    async copyText7() {
+      await this.$copyText(this.xrpAddress)
       await Swal.fire({
         icon: 'success',
         title: 'success',
@@ -391,11 +476,16 @@ export default {
       this.bankName = this.readPaymentWalletById.paymentWallet.bankName;
       this.accountNumber = this.readPaymentWalletById.paymentWallet.accountNumber;
       this.routingNumber = this.readPaymentWalletById.paymentWallet.routingNumber;
+      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.litecoinAddress;
+      this.dogecoinAddress  = this.readPaymentWalletById.paymentWallet.dogecoinAddress;
+      this.xrpAddress  = this.readPaymentWalletById.paymentWallet.xrpAddress;
+      this.ERC20  = this.readPaymentWalletById.paymentWallet.ERC20;
+      this.TRC20  = this.readPaymentWalletById.paymentWallet.TRC20;
     },
 
     async getList() {
       await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-        walletId: 1,
+        walletId: 3,
       });
 
       await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
@@ -431,7 +521,7 @@ export default {
     this.populateForm()
 
     StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 1,
+      walletId: 3,
     })
     StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
@@ -451,7 +541,7 @@ export default {
     this.populateForm()
 
     StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 1,
+      walletId: 3,
     })
     StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 

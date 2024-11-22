@@ -285,7 +285,7 @@ p{
     padding-left: 20px;
   }
   .company-logo{
-    width: 45%;
+    width: 50%;
     margin-top: unset;
   }
 }

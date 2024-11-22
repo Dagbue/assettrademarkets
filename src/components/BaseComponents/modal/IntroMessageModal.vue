@@ -67,7 +67,7 @@
 
         <base-button style="
                     border: 0.5px solid #5d78ff;
-                    background-color: #5d78ff;" :loading="loading" :disabled="loading2">Upload</base-button>
+                    background-color: #5d78ff;" :loading="loading ||  loading2" :disabled="loading2">Upload</base-button>
 
         </form>
 
@@ -207,12 +207,13 @@ export default {
       this.url2 = this.userInfo.backId;
     },
 
-    updateDetails() {
-      StoreUtils.dispatch(StoreUtils.actions.auth.updateUser, {
+    async updateDetails() {
+      await StoreUtils.dispatch(StoreUtils.actions.auth.updateUser, {
         userId: this.userId,
         frontId: this.url,
         backId: this.url2,
       })
+      await this.$emit('close');
     }
   },
 

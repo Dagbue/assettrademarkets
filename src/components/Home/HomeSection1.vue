@@ -56,7 +56,7 @@
 
         <div class="section-inner">
                     <img src="@/assets/people-group.svg" alt="" class="image" />
-          <p class="text-1-1">700,000+ active traders</p>
+          <p class="text-1-1">785,658+ active traders</p>
         </div>
 
         <div class="section-inner">
