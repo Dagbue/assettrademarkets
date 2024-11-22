@@ -20,7 +20,7 @@
 
         <p class="fund-wallet" @click="onPostClick">
           <i class='bx bx-plus' ></i>
-          Fund your Wallet
+          Fund Your Wallet
         </p>
 
       </div>
