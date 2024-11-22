@@ -567,8 +567,9 @@ form {
 
 
 .company-logo{
-  width: 22%;
+  width: 25%;
   margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 :root {

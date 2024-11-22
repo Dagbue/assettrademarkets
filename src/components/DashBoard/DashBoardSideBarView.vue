@@ -40,7 +40,7 @@
           <li>
             <a class="hover">
               <img src="../../assets/coin-stack.svg" alt="logo" class="link-img" />
-              <span class="links-name">Fund Wallet</span>
+              <span class="links-name">Fund My Wallet</span>
             </a>
           </li>
         </router-link>
@@ -117,7 +117,7 @@
         <li @click="toggleMobileNav2">
           <a>
             <img src="../../assets/coin-stack.svg" alt="logo" class="link-img" />
-            <router-link to="/fund-wallet" class="">Fund Wallet</router-link>
+            <router-link to="/fund-wallet" class="">Fund My Wallet</router-link>
           </a>
         </li>
         <li @click="toggleMobileNav2">
