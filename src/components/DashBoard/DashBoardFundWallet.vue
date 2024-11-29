@@ -485,7 +485,7 @@ export default {
 
     async getList() {
       await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-        walletId: 3,
+        walletId: 2,
       });
 
       await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
@@ -501,7 +501,7 @@ export default {
     this.populateForm()
 
     StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 1,
+      walletId: 2,
     })
     StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
@@ -521,7 +521,7 @@ export default {
     this.populateForm()
 
     StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 3,
+      walletId: 2,
     })
     StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
@@ -541,7 +541,7 @@ export default {
     this.populateForm()
 
     StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
-      walletId: 3,
+      walletId: 2,
     })
     StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
