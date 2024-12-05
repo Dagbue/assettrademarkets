@@ -476,11 +476,12 @@ export default {
       this.bankName = this.readPaymentWalletById.paymentWallet.bankName;
       this.accountNumber = this.readPaymentWalletById.paymentWallet.accountNumber;
       this.routingNumber = this.readPaymentWalletById.paymentWallet.routingNumber;
-      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.litecoinAddress;
-      this.dogecoinAddress  = this.readPaymentWalletById.paymentWallet.dogecoinAddress;
-      this.xrpAddress  = this.readPaymentWalletById.paymentWallet.xrpAddress;
-      this.ERC20  = this.readPaymentWalletById.paymentWallet.ERC20;
-      this.TRC20  = this.readPaymentWalletById.paymentWallet.TRC20;
+
+      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.LitecoinAddress;
+      this.dogecoinAddress = this.readPaymentWalletById.paymentWallet.DogecoinAddress;
+      this.xrpAddress = this.readPaymentWalletById.paymentWallet.XRPAddress;
+      this.ERC20 = this.readPaymentWalletById.paymentWallet.UsdtERC20Address;
+      this.TRC20 = this.readPaymentWalletById.paymentWallet.UsdtTRC20Address;
     },
 
     async getList() {

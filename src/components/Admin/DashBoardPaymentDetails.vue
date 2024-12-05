@@ -106,11 +106,11 @@ export default {
         bankName: this.bankName,
         accountNumber: this.accountNumber,
         routingNumber: this.routingNumber,
-        litecoinAddress: this.litecoinAddress,
-        dogecoinAddress: this.dogecoinAddress,
-        xrpAddress: this.xrpAddress,
-        ERC20: this.ERC20,
-        TRC20: this.TRC20,
+        LitecoinAddress: this.litecoinAddress,
+        DogecoinAddress: this.dogecoinAddress,
+        XRPAddress: this.xrpAddress,
+        UsdtERC20Address: this.ERC20,
+        UsdtTRC20Address: this.TRC20,
       })
 
       await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readPaymentWalletById, {
@@ -137,11 +137,11 @@ export default {
       this.accountNumber = this.readPaymentWalletById.paymentWallet.accountNumber;
       this.routingNumber = this.readPaymentWalletById.paymentWallet.routingNumber;
 
-      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.litecoinAddress;
-      this.dogecoinAddress = this.readPaymentWalletById.paymentWallet.dogecoinAddress;
-      this.xrpAddress = this.readPaymentWalletById.paymentWallet.xrpAddress;
-      this.ERC20 = this.readPaymentWalletById.paymentWallet.ERC20;
-      this.TRC20 = this.readPaymentWalletById.paymentWallet.TRC20;
+      this.litecoinAddress = this.readPaymentWalletById.paymentWallet.LitecoinAddress;
+      this.dogecoinAddress = this.readPaymentWalletById.paymentWallet.DogecoinAddress;
+      this.xrpAddress = this.readPaymentWalletById.paymentWallet.XRPAddress;
+      this.ERC20 = this.readPaymentWalletById.paymentWallet.UsdtERC20Address;
+      this.TRC20 = this.readPaymentWalletById.paymentWallet.UsdtTRC20Address;
     },
   },
   async created() {
@@ -150,7 +150,7 @@ export default {
     })
     await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
-    await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readAllPaymentWallet)
+    // await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readAllPaymentWallet)
 
     await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
     await this.populateForm();
@@ -161,7 +161,7 @@ export default {
       walletId: 2,
     })
 
-    await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readAllPaymentWallet)
+    // await StoreUtils.dispatch(StoreUtils.actions.paymentWallet.readAllPaymentWallet)
 
     await StoreUtils.rootGetters(StoreUtils.getters.paymentWallet.getReadPaymentWalletById)
 
